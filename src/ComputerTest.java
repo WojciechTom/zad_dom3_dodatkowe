@@ -20,6 +20,9 @@ public class ComputerTest {
         komp1.pokaz();
         komp2.pokaz();
 
+        ComputerAssembly maszyna2 = new ComputerAssembly();
+        Computer komp3 = maszyna2.assembly("Laptop2", "Intel", "Core i5", 8700, "Kingstone", "GHT", 16000,8700);
+        komp3.pokaz();
 
 
 
