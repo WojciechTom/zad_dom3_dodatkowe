@@ -10,6 +10,7 @@ public class Computer {
     }
 
     void pokaz(){
-        System.out.println(this.Nazwa + ", pamięć: " + this.pamiec.producent + " " + this.pamiec.model + ", procesor: " + this.proc.producent + " " + this.proc.model );
+        System.out.println(this.Nazwa + ", pamięć: " + this.pamiec.producent + " " + this.pamiec.model + ", procesor: " + this.proc.producent + " " + this.proc.model +" (Taktowanie procesora: " + this.proc.taktowanie + ")" );
+
     }
 }

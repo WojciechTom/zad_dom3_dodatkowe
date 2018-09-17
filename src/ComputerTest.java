@@ -12,5 +12,17 @@ public class ComputerTest {
         komp1.pokaz();
         komp2.pokaz();
 
+        Overclock maszyna = new Overclock();
+
+        maszyna.increaseCpuClock(komp1 , 4000);
+        maszyna.decreaseCpuClock(komp2, 2000);
+
+        komp1.pokaz();
+        komp2.pokaz();
+
+
+
+
+
     }
 }
